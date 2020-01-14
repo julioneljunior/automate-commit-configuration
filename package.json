@@ -31,9 +31,6 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
-    },
-    "cz-customizable": {
-      "config": "./commitlint.config.js"
     }
   }
 }
