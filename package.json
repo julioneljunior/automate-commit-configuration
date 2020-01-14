@@ -1,0 +1,39 @@
+{
+  "name": "automate-commit",
+  "version": "1.0.0",
+  "description": "study project for commit automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julioneljunior/automate-commit.git"
+  },
+  "author": "Elcio Junior",
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "prepare-commit-msg": "/dev/tty && git cz --hook || true"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/julioneljunior/automate-commit/issues"
+  },
+  "homepage": "https://github.com/julioneljunior/automate-commit#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.4",
+    "@commitlint/config-conventional": "^8.3.4",
+    "cz-conventional-changelog": "^3.0.2",
+    "husky": "^4.0.9"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
+    "cz-customizable": {
+      "config": "./commitlint.config.js"
+    }
+  }
+}
