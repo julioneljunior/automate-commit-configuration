@@ -35,7 +35,7 @@ This configuration use:
 #### 3 - Install commitizen ( https://github.com/commitizen/cz-cli )  
 `npm install --global commitizen`  
   
-##### 3.1 - Run commitizen configuration inside your project  
+##### 3.1 - Run commitizen configuration in your project  
 `commitizen init cz-conventional-changelog --save-dev --save-exact`  
   
 ##### 3.2 - Add commitizen configuration for husky in package.json  
@@ -60,7 +60,7 @@ When run 'git commit' on command line (for IDE users, check IDE plugins section)
 
 ## How a bad commit message validation looks like?
 With above configuration, Husky fired pre-commit action, checking commit message with conventional commitlint format. 
-This is a bad commit message example and the checking's result.
+This is an example of bad commit message and the checking's result.
 
 ![rejected commits examples](/md-images/error-automate-commit.png)
 
