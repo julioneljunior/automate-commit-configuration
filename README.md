@@ -53,13 +53,17 @@ This configuration use:
 
 ## How should I use?
 When run 'git commit' on command line (for IDE users, check IDE plugins section), the commitizen cli runs an assistant to commit message construction.
+
 ![commitizen commits assistant](/md-images/commitizen-add-commit.png)
+
 (example of commitizen cli)
 
 ## How a bad commit message validation looks like?
 With above configuration, Husky fired pre-commit action, checking commit message with conventional commitlint format. 
 This is a bad commit message example and the checking's result.
+
 ![rejected commits examples](/md-images/error-automate-commit.png)
+
 (example of commitLint validation error)
 
 ## IDE plugins  
