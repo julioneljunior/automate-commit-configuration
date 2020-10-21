@@ -1,6 +1,8 @@
 
 # Project configuration for commit message automation  
 
+[![Join the chat at https://gitter.im/automate-commit-configuration/community](https://badges.gitter.im/automate-commit-configuration/community.svg)](https://gitter.im/automate-commit-configuration/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Commit Message Automation organize and normalize commit messages that are made in the git repository.  
 
 This configuration use:
